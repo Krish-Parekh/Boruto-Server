@@ -15,8 +15,9 @@ application {
     mainClass.set("io.ktor.server.netty.EngineMain")
 }
 
+
 tasks.create("stage"){
-    dependsOn("initialDist")
+    dependsOn("installDist")
 }
 
 repositories {
