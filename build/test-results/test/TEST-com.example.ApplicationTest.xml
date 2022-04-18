@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.ApplicationTest" tests="11" skipped="0" failures="0" errors="0" timestamp="2022-04-17T12:26:59" hostname="DESKTOP-24CRDNN" time="3.581">
+  <properties/>
+  <testcase name="access non existing endpoint assert not found" classname="com.example.ApplicationTest" time="3.276"/>
+  <testcase name="access search heroes endpoint, query an empty text, assert multiple hero result" classname="com.example.ApplicationTest" time="0.12"/>
+  <testcase name="access all heroes endpoint, query invalid page number, assert error" classname="com.example.ApplicationTest" time="0.026"/>
+  <testcase name="access all heroes endpoint, query second page, assert correct information" classname="com.example.ApplicationTest" time="0.018"/>
+  <testcase name="access search heroes endpoint, query hero name, assert single hero result" classname="com.example.ApplicationTest" time="0.014"/>
+  <testcase name="access all heroes endpoint, query all pages, assert correct information" classname="com.example.ApplicationTest" time="0.039"/>
+  <testcase name="access search heroes endpoint, query hero name, assert multiple hero result" classname="com.example.ApplicationTest" time="0.012"/>
+  <testcase name="access search heroes endpoint, query non existing hero, assert multiple hero result" classname="com.example.ApplicationTest" time="0.012"/>
+  <testcase name="access root endpoint, assert correct information" classname="com.example.ApplicationTest" time="0.031"/>
+  <testcase name="access all heroes endpoint, assert correct information" classname="com.example.ApplicationTest" time="0.013"/>
+  <testcase name="access all heroes endpoint, query non existing page number, assert error" classname="com.example.ApplicationTest" time="0.017"/>
+  <system-out><![CDATA[2022-04-17 17:56:59.941 [Test worker] INFO  ktor.test - Autoreload is disabled because the development mode is off.
+2022-04-17 17:56:59.962 [Test worker] INFO  ktor.test - Application started in 0.336 seconds.
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
